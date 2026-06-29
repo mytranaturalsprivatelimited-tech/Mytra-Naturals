@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mytra Naturals | Premium Export Products</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">🌿 Mytra Naturals</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="#contact" class="quote-btn">Request a Quote</a>
+    </header>
+
+    <div class="badge-bar">
+        <span><i class="fa-solid fa-circle-check"></i> IEC REGISTERED</span>
+        <span><i class="fa-solid fa-circle-check"></i> FSSAI CERTIFIED</span>
+        <span><i class="fa-solid fa-circle-check"></i> APEDA MEMBER</span>
+        <span><i class="fa-solid fa-circle-check"></i> GST REGISTERED</span>
+    </div>
+
+    <section id="home" class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=1200');">
+        <div class="hero-content">
+            <h5>WHAT WE EXPORT</h5>
+            <h1>Our Premium Export Products</h1>
+            <p>Carefully sourced, quality-inspected, and export-packed from India's finest agricultural regions.</p>
+        </div>
+    </section>
+
+    <section id="products" class="products-section">
+        <h2 class="section-title">Our Featured Products</h2>
+        <div class="products-grid">
+            <div class="product-card large" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&q=80&w=600');">
+                <div class="card-content">
+                    <span class="badge">FLAGSHIP PRODUCT</span>
+                    <h3>Henna Powder</h3>
+                    <p>Premium quality natural henna sourced from Sojat City—the world capital of henna.</p>
+                    <a href="#contact" class="inquire-btn">Inquire Now →</a>
+                </div>
+            </div>
+            <div class="product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&q=80&w=600');">
+                <div class="card-content">
+                    <h3>Jeera (Cumin Seeds)</h3>
+                    <a href="#contact" class="inquire-btn">Inquire Now →</a>
+                </div>
+            </div>
+            <div class="product-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1618164435735-413d3b066c9a?auto=format&fit=crop&q=80&w=600');">
+                <div class="card-content">
+                    <h3>Turmeric</h3>
+                    <a href="#contact" class="inquire-btn">Inquire Now →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-form-block">
+                <h2>Ready to Import from India?</h2>
+                <form onsubmit="event.preventDefault(); alert('Inquiry Sent Successfully!');">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <textarea rows="4" placeholder="Your Requirements..." required></textarea>
+                    <button type="submit" class="submit-btn">Send Inquiry</button>
+                </form>
+            </div>
+            <div class="contact-info-block">
+                <h3>Contact Information</h3>
+                <p>📍 H-101, Industrial Area, Sojat City, Rajasthan, India</p>
+                <p>📞 +91 7240533555</p>
+                <a href="https://wa.me/917240533555" target="_blank" class="whatsapp-direct">🟢 Chat on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/917240533555" target="_blank" class="whatsapp-float">💬</a>
+</body>
+</html>
